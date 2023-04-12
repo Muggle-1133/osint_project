@@ -1,0 +1,21 @@
+.NavbarLogo img {
+  cursor: pointer;
+  width: 145px;
+}
+
+.NavBtn i {
+  margin-right: 8px;
+  font-size: 18px;
+  color: #0fd870;
+  line-height: 19px;
+}
+
+.navBtnLi .fa-user-circle-o {
+  font-size: 28px;
+  color: #ffffff;
+}
+.btnLink i {
+  margin-right: 11px;
+  font-size: 16px;
+  color: #0c0c0c;
+}

@@ -1,0 +1,35 @@
+.tipGraph {
+  width: calc(33% - 7px);
+  height: 100%;
+  z-index: 9;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.6rem;
+  background-color: #383838a1;
+}
+
+.tipSpanContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 10%;
+}
+.tipSpanContainer > span {
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.tipGraphContainer {
+  width: 100%;
+  height: 100%;
+}
+.tipGraphContainer .apexcharts-tooltip {
+  background: #f3f3f3;
+  color: rgb(19, 61, 151);
+}

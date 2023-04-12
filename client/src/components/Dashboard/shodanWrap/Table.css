@@ -1,0 +1,129 @@
+.MuiTableRow-head {
+  font-weight: bold !important;
+}
+.osintTable{
+  width: 100%;
+}
+.osintTable td th {
+  border: none !important;
+}
+
+.osintTable:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.ShodanTableValues {
+  border-radius: 9px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.Details .detailBtn {
+  color: #11d386 !important;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.Details .detailBtn:hover {
+  text-decoration: underline;
+}
+
+.shodanModalContent {
+  height: 80%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.shodanModalContent > ul {
+  list-style: none;
+}
+.shodanModalContent > ul > li > i {
+  color: rgb(255 18 18 / 81%);
+  margin-right: 5px;
+}
+.shodanModalContent > ul > li {
+  margin-top: 10px;
+}
+.cveTableModalContent {
+  height: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cveTable {
+  width: 100%;
+  border-radius: 0.7rem !important;
+}
+
+.coupleTableContainer {
+  height: 325px;
+  overflow: overlay;
+}
+.coupleTableContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.coupleTableContainer::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 42%, 0.29);
+  border-radius: 100px;
+}
+.cveTableModalContent > .referInfo {
+  transform: translateY(-40px);
+}
+.cveTableModalContent > .referInfo i {
+  color: #f92f2f;
+  margin-right: 7px;
+}
+.modalUl {
+  text-overflow: ellipsis;
+  width: 100%;
+  word-break: break-all;
+}
+.modalUl > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.modalUl > li > a {
+  text-decoration: none;
+  color: #222;
+}
+
+.modalUl > li > a:hover {
+  text-decoration: underline;
+}
+
+.referBtn {
+  color: #f1323e !important;
+  cursor: pointer;
+}
+
+.referBtn:hover {
+  text-decoration: underline;
+}
+
+.tableBodyContainer {
+  height: 269px;
+  overflow: overlay;
+}
+
+.tableBodyContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.tableBodyContainer::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 42%, 0.29);
+  border-radius: 100px;
+}

@@ -1,0 +1,24 @@
+import React from "react";
+import styled from "styled-components";
+
+export default function AlertMessage({ display, children }) {
+  return <MessageBox display={display}>{children}</MessageBox>;
+}
+
+export const MessageBox = styled.div`
+  display: ${(props) => props.display };
+  width: 100%;
+  align-items: flex-start;
+  margin-top: -20px;
+  margin-bottom: 32px;
+  color: #F15D24;
+  font-size: 0.8125rem;
+  white-space: pre-line;
+
+  svg {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.375rem;
+    margin-top: 0.1rem;
+  }
+`;

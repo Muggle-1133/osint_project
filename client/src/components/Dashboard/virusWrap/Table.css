@@ -1,0 +1,44 @@
+.MuiTableRow-root .MuiTableRow-head {
+  font-weight: bold !important;
+}
+
+.osintTable:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.osintTable td th {
+  border: none !important;
+}
+
+.valuesText {
+  padding: 8px;
+  color: #11d386;
+  cursor: pointer;
+}
+
+.valuesText:hover {
+  text-decoration: underline;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.modalContent {
+  height: 80%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.modalContent > ul {
+  list-style: none;
+}
+.modalContent > ul > li > i {
+  color: rgb(255 18 18 / 81%);
+}
+.modalContent > ul > li:last-child {
+  margin-top: 15px;
+}

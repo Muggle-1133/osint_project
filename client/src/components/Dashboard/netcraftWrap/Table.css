@@ -1,0 +1,23 @@
+.MuiTableRow-root .MuiTableRow-head {
+  font-weight: bold !important;
+}
+
+.osintTable:first-child {
+  border-radius: 0.7rem !important;
+}
+
+.osintTable td th {
+  border: none !important;
+}
+
+.TableValues {
+  color: #11d386;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.cipherTable {
+  width: 100%;
+}

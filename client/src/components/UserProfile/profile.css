@@ -1,0 +1,120 @@
+.profileBackground {
+  width: 100%;
+  height: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer {
+  background-color: #d0d0d02e;
+  color: #222;
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  width: 600px;
+  height: 570px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 0.7rem;
+  box-shadow: 2px 5px 16px rgb(58 58 58 / 32%);
+}
+
+.leftWrap {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: space-evenly;
+  float: left;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background-color: #2ed573;
+  border-radius: 0.3rem 0 0 0.3rem;
+}
+
+.tabShow {
+  transform: translateY(30px);
+}
+.profileNav div {
+  padding: 35px;
+  color: rgba(26, 25, 25, 0.795);
+  font-size: 1.1rem;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.profileNav .iconContain:hover {
+  color: #0c0c0c;
+  cursor: pointer;
+}
+
+.profileNav .iconContain:first-child {
+  margin-top: 7px;
+}
+.iconActive {
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.iconActive i {
+  font-size: 23px;
+}
+.profileNav .iconContain i {
+  font-size: 23px;
+}
+.rightWrap {
+  width: 75%;
+  margin-left: 23%;
+}
+
+.rightWrap h1 {
+  color: #00b559;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.rightWrap h2 {
+  color: #ebebeb;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+  margin: 35px 0px 10px 2px;
+}
+
+.infoInput {
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #34cd9abf;
+  width: 90%;
+  font-size: 17px;
+  padding: 10px 0 10px 5px;
+  color: #d1d1d1;
+  outline: none;
+}
+
+.changeBtn {
+  font-size: 17px;
+  font-family: "SpoqaHanSansNeo-Regular";
+  border: 0;
+  color: #fff;
+  background-color: #2ed573;
+  padding: 13px 160px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 33px;
+  border-radius: 0.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.changeBtn:hover {
+  background-color: #2cc56c;
+}
+
+.changeBtn i {
+  font-size: 17px;
+  margin-right: 7px;
+}

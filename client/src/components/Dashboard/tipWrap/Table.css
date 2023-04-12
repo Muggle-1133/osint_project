@@ -1,0 +1,50 @@
+.modalUl {
+  text-overflow: ellipsis;
+  width: 100%;
+  word-break: break-all;
+}
+.modalUl > li:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.modalUl > li > a {
+  text-decoration: none;
+  color: #222;
+}
+
+.modalUl > li > a:hover {
+  text-decoration: underline;
+}
+
+.showVuln {
+  color: "#11D386";
+  font-family: "SpoqaHanSansNeo-Regular";
+  font-size: "14px";
+  cursor: pointer;
+}
+
+.showVuln:hover {
+  text-decoration: underline;
+}
+
+.domainScore {
+  cursor: pointer;
+}
+
+.domainScore:hover {
+  text-decoration: underline;
+}
+
+.referDescInfo {
+  transform: translateY(-1rem);
+  font-weight: bold;
+}
+
+.referDescInfo i {
+  color: #f92f2f;
+  margin-right: 7px;
+}
+
+.tipTable {
+  width: calc(33% - 7px);
+}

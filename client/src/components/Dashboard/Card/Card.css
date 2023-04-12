@@ -1,0 +1,36 @@
+.MainWrap1 {
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: inherit;
+  /* border: 1px solid coral; */
+}
+
+.GraphCard {
+  width: calc(33% - 7px);
+  height: 100%;
+  z-index: 9;
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.6rem;
+}
+
+.GraphCard > span:nth-of-type(1) {
+  color: #eeeeee;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.GraphCard > span:nth-of-type(2) {
+  color: #eeeeee;
+  font-size: 16px;
+}
+
+.graphContainer {
+  width: 100%;
+}

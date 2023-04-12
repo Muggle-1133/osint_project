@@ -1,0 +1,38 @@
+.hunterTable {
+  width: calc(33% - 7px);
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 0.7rem !important;
+}
+.tableCotentContainer {
+  width: 100%;
+  background-color: rgba(56, 56, 56, 0.63);
+  border-radius: 0 0 0.4rem 0.4rem;
+  height: 322px;
+  overflow: overlay;
+}
+
+.tableCotentContainer::-webkit-scrollbar {
+  width: 10px;
+}
+
+.tableCotentContainer::-webkit-scrollbar-thumb {
+  background-color: hsla(0, 0%, 42%, 0.29);
+  border-radius: 100px;
+}
+
+.hunterTable td th {
+  border: none !important;
+}
+
+.showResults {
+  padding: 8px;
+  color: #d1d1d1;
+  font-family: "SpoqaHanSansNeo-Regular";
+  font-size: "16px";
+}
+
+.emailCount:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

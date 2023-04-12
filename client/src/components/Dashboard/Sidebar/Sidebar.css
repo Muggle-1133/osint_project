@@ -1,0 +1,99 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 4rem;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  display: flex;
+  font-weight: bold;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+}
+
+.logo > img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.usernameSpan {
+  width: 100%;
+  height: 5%;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 33px;
+  color: #fff;
+}
+
+/* menu */
+.menu {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2.5rem;
+  margin-left: 2rem;
+  position: relative;
+  transition: all 0.2s ease;
+  font-size: 16px;
+  border-radius: 0.4rem;
+  color: rgba(35, 134, 88, 0.877);
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+.itemActive {
+  background: #1bd185e1;
+  color: #fff;
+  margin-left: 0;
+}
+.itemActive::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  background: #136d4aee;
+  margin-right: calc(1rem - 8px);
+}
+
+/*.menu .menuItem:last-child {
+  position: absolute;
+  top: 22.9rem;
+  width: 100%;
+}*/
+
+.menuItemActive {
+  color: #fff;
+  margin-left: 0;
+}
+
+.menuItemActive::before {
+  content: "";
+  width: 8px;
+  height: 100%;
+  margin-right: calc(1rem - 8px);
+}
+
+.listItemBox {
+  font-size: 14px;
+}
+
+.listItemBox i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+.listItemBox .fa-file-pdf{
+  font-size: 20px;
+  margin-right: 14px;
+}
