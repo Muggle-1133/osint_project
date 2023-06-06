@@ -20,11 +20,14 @@
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"> <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white"> <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=black"> <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white"> <img src="https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white">
 
 ## 👩🏻‍💻 3. 기능 구현
-- <span style="font-weight: bold; color: yellow;">보안 위협 정보를 대시보드 형태로 보여줌</span>
+- <b>보안 위협 정보를 대시보드 형태로 보여줌</b>
 <img src="https://github.com/Muggle-1133/osint_project/assets/97649633/8223fbff-c784-44b3-b10d-271d1af4b436" /><br />
+
 - <b>detail 버튼으로 위협 정보 세부 설명 보기</b>
 <img src="https://github.com/Muggle-1133/osint_project/assets/97649633/fb076cd2-28ae-42c0-9d4b-ce7cb2f8f906" /><br />
-- 대시보드 화면 저장 기능(PNG or PDF)
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/268e16d1-c0f4-4da8-9813-1bac9f1e89bd" /><br />
-- 검색 기록 조회
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/e702cc95-70aa-45ba-80e5-dce45213d5f1" /><br />
+
+- <b>대시보드 화면 저장 기능(PNG or PDF)</b>
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/268e16d1-c0f4-4da8-9813-1bac9f1e89bd" />
+
+- <b>검색 기록 조회</b>
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/e702cc95-70aa-45ba-80e5-dce45213d5f1" />
