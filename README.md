@@ -26,8 +26,8 @@
 - <b>detail 버튼으로 위협 정보 세부 설명 보기</b>
 <img src="https://github.com/Muggle-1133/osint_project/assets/97649633/fb076cd2-28ae-42c0-9d4b-ce7cb2f8f906" /><br />
 
-- <b>대시보드 화면 저장 기능(PNG or PDF)</b>
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/268e16d1-c0f4-4da8-9813-1bac9f1e89bd" />
+- <b>대시보드 화면을 PNG 또는 PDF 형태로 저장</b>
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/268e16d1-c0f4-4da8-9813-1bac9f1e89bd" /><br />
 
 - <b>검색 기록 조회</b>
 <img src="https://github.com/Muggle-1133/osint_project/assets/97649633/e702cc95-70aa-45ba-80e5-dce45213d5f1" />
