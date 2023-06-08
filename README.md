@@ -6,7 +6,7 @@
 - [기능 구현](#3-기능-구현)
 
 ## 1. 프로젝트 개요
-![osint_img](https://github.com/Muggle-1133/osint_project/assets/97649633/dd76788e-c312-401a-b0c7-5067a4874adf)
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/dd76788e-c312-401a-b0c7-5067a4874adf" />
 
 > <b>프로젝트</b>: OSINT 검색 사이트 기반 통합 보안 위협 정보 제공 웹 사이트<br />
 > <b>기획 및 제작</b>: 양수연<br />
