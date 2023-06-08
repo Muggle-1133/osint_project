@@ -4,7 +4,7 @@ from datetime import datetime
 def shodan_search(input_value):
     try:    
         # api 설정 부분
-        SHODAN_API_KEY = "fcPHYSOUokGQoKvDdQIb42pBF0s8ujvm"  # 발급받은 API KEY 입력
+        SHODAN_API_KEY = "apikey"  # 발급받은 API KEY 입력
         api = shodan.Shodan(SHODAN_API_KEY)
         
         results = api.host(input_value)
