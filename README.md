@@ -6,7 +6,7 @@
 - [기능 구현](#3-기능-구현)
 
 ## 1. 프로젝트 개요
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/dd76788e-c312-401a-b0c7-5067a4874adf" />
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/ee9845a7-c03a-4623-a47d-e2525d7c13c4" />
 
 > <b>프로젝트</b>: OSINT 검색 사이트 기반 통합 보안 위협 정보 제공 웹 사이트<br />
 > <b>기획 및 제작</b>: 양수연<br />
@@ -21,13 +21,13 @@
 
 ## 3. 기능 구현
 - <b>보안 위협 정보를 대시보드 형태로 보여줌</b>
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/8223fbff-c784-44b3-b10d-271d1af4b436" /><br />
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/66e03ebd-a24c-4d0a-ac4f-88797eedc589" /><br />
 
 - <b>detail 버튼으로 위협 정보 세부 설명 보기</b>
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/fb076cd2-28ae-42c0-9d4b-ce7cb2f8f906" /><br />
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/87617706-4b60-460a-9397-c22377d42bf6" /><br />
 
 - <b>대시보드 화면을 PNG 또는 PDF 형태로 저장</b>
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/268e16d1-c0f4-4da8-9813-1bac9f1e89bd" /><br />
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/d07e5a34-6fcd-48d3-9781-26f8e159e9f3" /><br />
 
 - <b>검색 기록 조회</b>
-<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/e702cc95-70aa-45ba-80e5-dce45213d5f1" />
+<img src="https://github.com/Muggle-1133/osint_project/assets/97649633/5f15e038-2c25-48e0-b04b-bb0d9eec9d61" />
