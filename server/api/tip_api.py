@@ -2,7 +2,7 @@ import requests
 
 def tip_search(inputValue):
     try:
-        API_KEY = 'at_PSrHQ4j2ExWNP3Bls7V9uTEhQxhDb'
+        API_KEY = 'api_key'
         # Domain Malware Check API
         malware_check_url = 'https://api.threatintelligenceplatform.com/v1/malwareCheck?domainName={Domain}&apiKey={API_KEY}'.format(Domain=inputValue, API_KEY=API_KEY)
         # API로 데이터 불러오기
