@@ -3,7 +3,7 @@ import requests
 def virus_search(input_value):
     try:
         # 바이러스토탈 API key
-        my_apikey = 'd0cd4a7359d3684adf78d9a545ba921c1207fb922bf13c214f30fb529871a6e5'
+        my_apikey = 'apikey'
 
         # 바이러스 토탈 URL 스캔
         url = 'https://www.virustotal.com/vtapi/v2/url/scan'
